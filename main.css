@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Mochiy Pop One', sans-serif;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+    background: white;
+    position: fixed;
+    width: 100%;
+}
+#pers{
+    display: flex;
+}
+#pers > p{
+    font-size: 1.4rem;
+    margin: 5px 2px;
+    font-family: 'Lato', sans-serif;
+}
+#pers h2{
+    font-size: 1.4rem;
+    padding-right: 5px;
+}
+span{
+    background-color: rgb(85, 85, 224);
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+#nav, a{
+    margin-top: 10px;
+    padding: 0px 10px;
+    font-size: 0.78rem;
+    text-decoration: none;
+    color: inherit;
+    /* font-family: 'Inconsolata', monospace; */
+}
+#blue{
+    color: rgb(112, 112, 216);
+}
+.hid{
+    visibility: hidden;
+}
+.content{
+    margin-top: 100px;
+    background: linear-gradient(90deg, #e3d6ca 43%, white 25%);
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    /* border: 1px solid black; */
+    width: 800px;
+    height: 570px;
+    margin-top: 75px;
+    margin-right: 190px;
+    background: linear-gradient(90deg, #f7ece1 55%, white 45%);
+    box-shadow: -5px 0px 8px rgba(0, 0, 0, 0.103);
+    display: flex;
+    justify-content: space-between;
+}
+#det{
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9rem;
+}
+#det span{
+    height: 3px;
+    width: 70px;
+}
+#det p{
+    font-size: 1.6rem;
+    font-family: 'Uchen', serif;
+}
+img{
+    width: 68%;
+    border-radius: 35%;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.icons{
+    background: #fff;
+    width: 98%;
+    height: 10%;
+    margin-top: 85px;
+    box-shadow: -5px 20px 10px rgba(0, 0, 0, 0.103);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    margin: 0 13px;
+    font-size: 1.35rem;
+    cursor: pointer;
+}
+i:hover{
+    color: blue;
+}
+.side{
+    margin-top: 50px;
+    font-family: 'Lato', sans-serif;
+    text-align: start;
+    margin-right: 25px;
+}
+.side p{
+    font-family: inherit;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+button{
+    margin: 50px 11px 0px 0px;
+    padding: 8px;
+    width: 42%;
+    border-radius: 50px;
+    cursor: pointer;
+    background: blue;
+    color: white;
+    border: none;
+}
+button:hover{
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+button + button{
+    background: none;
+    color: black;
+    border: 1px solid black;
+}
+button + button:hover{
+    background: blue;
+    color: white;
+    border: none;
+}
+.me{
+    border: 1px solid black;
+    font-size: 0.5rem;
+    
+}
